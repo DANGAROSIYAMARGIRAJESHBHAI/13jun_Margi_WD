@@ -1,0 +1,19 @@
+DIFFERENCE BETWEEN SERVER SIDE SCRIPTING AND CLIENT SIDE SCRIPTIING :-
+
+----- SERVER SIDE SCRIPTING -----
+
+- PHP,Python,Java ect.. are used (backend part).
+- It's provides more security for data.
+- It's runs on the web server.
+- The source code is not visible to the user.
+- Its primary function is to manipulate and provide access to the respective database as per the request.
+
+
+----- CLIENT SIDE SCRIPTING -----
+
+- HTML,CSS and Javascript are used.
+- It dose not provide security for data.
+- It's run on the user's computer.
+- The source code is visible to the user.
+- Its main function is to provide the requested output to the end user.
+
