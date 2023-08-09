@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background clip</title>
+    <style>
+        div{
+            height: 350px;
+            width: 500px;
+            border: 20px solid red;
+            background: black;
+            padding: 80px;
+            color: white;
+        
+            /* background-clip: border-box; */
+            /* background-clip: padding-box; */
+            background-clip:content-box;
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia minus magni laudantium eos numquam eaque asperiores a!</div>
+</body>
+</html>
