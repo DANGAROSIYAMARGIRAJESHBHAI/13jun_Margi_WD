@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        .parent{
+            height: 500px;
+            width: 500px;
+            border: 2px solid black;
+            position: relative;
+        
+        }
+        .child{
+
+position: absolute;
+        }
+        .c-1{
+            height: 400px;
+            width: 400px;
+            background-color: blue;
+            z-index: 2;
+        }
+        .c-2{
+            height: 500px;
+            width: 500px;
+            background-color: lightskyblue;
+            
+
+        }
+        .c-3{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            z-index: 4;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="parent">
+<p class="child c-1"></p>   
+<P class="child c-2"></P>
+<P class="child c-3"></P>
+</div>
+</body>
+</html>
