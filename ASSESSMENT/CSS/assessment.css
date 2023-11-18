@@ -41,8 +41,11 @@
     margin-left: 3px;
 
 }
-/* .mainbox .maincontent .content2 iframe{
-    width: auto; */
+.mainbox .content .no .color{
+    color: lightskyblue;
+    margin-top: 11px;
+}
+
 
 .mainbox .content .icon{
     color: red;
@@ -72,7 +75,8 @@
 }
 .mainbox .maincontent .content1 .submite{
     border: none;
-    color:white ;
+    color:white;
+    background-color: rgb(210, 59, 59);
 }
 
 .mainbox .maincontent .content1 button{
@@ -89,4 +93,25 @@
 .mainbox .maincontent .content1  .res{
     height: 100px; 
     width: 340px;
+}
+.mainbox .content2 .facebook{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+
+}
+.mainbox .content2 .twitter{
+    background-color: lightblue; 
+    color: white;
+    padding: 5px;
+}
+.mainbox .content2 .linkdin{
+    background-color: rgb(5, 73, 99);
+    color: white;
+    padding: 5px;
+}
+.mainbox .content2 .github{
+    background-color: black;
+    color: white;
+    padding: 5px;
 }
