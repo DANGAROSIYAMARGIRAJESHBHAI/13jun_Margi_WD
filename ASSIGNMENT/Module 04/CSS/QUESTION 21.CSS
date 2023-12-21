@@ -1,0 +1,111 @@
+.mainbox {
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.mainbox .sub1,
+.sub2,
+.sub3,
+.sub4,
+.sub5,
+.sub6,
+.sub7 {
+    height: 170px;
+    width: 170px;
+    border: 1px solid white;
+
+
+}
+
+.sub1 {
+    position: absolute;
+    top: 200px;
+    left: 5%;
+    background-color: aqua;
+}
+
+.sub2 {
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    background-color: brown;
+}
+
+.sub3 {
+    position: absolute;
+    top: 200px;
+    left: 45%;
+    background-color: yellowgreen;
+}
+
+.sub4 {
+    position: absolute;
+    top: 200px;
+    left: 65%;
+    background-color: rebeccapurple;
+}
+
+.sub5 {
+    position: absolute;
+    top: 200px;
+    left: 85%;
+    background-color: chocolate;
+}
+
+.sub6 {
+    position: absolute;
+    top: 200px;
+    left: 105%;
+    background-color: blue;
+}
+
+.sub7 {
+    position: absolute;
+    top: 200px;
+    left: 125%;
+    background-color: olive;
+}
+
+
+.mainbox .p1 {
+    color: white;
+    font-size: 32px;
+    /* border: 1px solid white; */
+    height: auto;
+    width: 400px;
+    position: absolute;
+    top: 20px;
+    left: 38%;
+}
+
+.mainbox .p2 {
+    color: gray;
+    font-size: 15px;
+    /* border: 1px solid white; */
+    height: auto;
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 45%;
+}
+
+.fa-backward {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 450px;
+    left: 400px;
+}
+
+.fa-forward {
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    top: 450px;
+    left: 800px;
+}
