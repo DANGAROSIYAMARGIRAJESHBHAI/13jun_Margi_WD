@@ -1,0 +1,42 @@
+.mainbox{
+    height: 500px;
+    width: 50%;
+    border: 1px solid black;
+}
+.mainbox .head{
+    margin-left: 280px;
+}
+.mainbox #mark1{
+    margin-left: 120px; 
+} 
+.mainbox #mark2{
+    margin-left: 110px; 
+}
+.mainbox #mark3{
+    margin-left: 140px; 
+}
+.mainbox #mark4{
+    margin-left: 155px; 
+}
+.mainbox #mark5{
+    margin-left: 170px; 
+}
+.mainbox #mark6{
+    margin-left: 174px; 
+}
+.mainbox #mark7{
+    margin-left: 140px; 
+}
+.mainbox button{
+    margin-left: 240px;
+    width: 120px;
+    padding: 10px;
+    font-size: 15px;
+}
+.mainbox .percentage{
+    margin-left: 240px;
+}
+
+#total{
+    color: blue;
+}
