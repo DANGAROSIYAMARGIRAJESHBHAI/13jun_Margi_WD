@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 06</title>
+</head>
+<body>
+    <div style="background-color:lightblue; padding: 10px;">
+
+        <h3><u>Question 06 :-</u></h3>
+        <p><b>Write the code for adding new elements dynamically?</b></p>
+        
+    </div>
+
+    <div style="background-color: lightpink; padding: 10px;">
+
+        <p>we can adding new elements dynamically by javascript.</p>
+        <p><h3><b><u>Code :-</u></b></h3></p>
+        <p>
+            &lt; Body &gt;<br><br>
+            &lt; div id = "parent" &gt;<br>
+            &lt; p id ="line1" &gt; first line  &lt; /p &gt; <br>
+            &lt; p id ="line2" &gt; secound line  &lt; /p &gt; <br> 
+            &lt; /div &gt;<br><br>
+
+            &lt; script &gt;<br>
+            var pre=document.createElement('p')<br>
+            var node=document.createTextNode('third line')<br>
+            pre.appendChild(node)<br>
+            var parent=document.getElementById("parent")<br>
+            parent.appendChild(pre)<br>
+            &lt; /script &gt;<br><br>
+            &lt; /Body &gt;
+        </p>
+        <br><br>
+
+        <p><h3><b><u>Output :-</u></b></h3></p>
+        <p>first line</p>
+        <p>secound line</p>
+        <p>third line</p>
+    </div>
+</body>
+</html>
