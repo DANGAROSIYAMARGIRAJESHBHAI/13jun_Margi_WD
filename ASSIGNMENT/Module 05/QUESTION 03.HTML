@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION 03</title>
+</head>
+<body>
+    <div style="background-color:lightblue; padding: 10px;">
+
+        <h3><u>Question 03 :-</u></h3>
+        <p><b>How to create slider with animation?</b></p>
+        
+    </div>
+     
+    <div style="background-color: lightpink; padding: 10px;">
+        <p>&#10233 Syntax:-</p>
+    <pre>
+        &lt; script &gt;
+        $(".animate").click(function() {
+            $(selector).animate({
+                params(height/width)
+            },1000)
+        });
+        &lt; /script &gt;
+    </pre>
+    <div></div> 
+    <br><br>
+    <button class="animate">Click</button> 
+    <script>
+        $(".animate").click(function() { 
+            $("div").animate({ 
+                height: "200px", 
+                width: "200px", 
+            }, 1000) 
+        });
+        </script>
+    </div>
+</body>
+</html>
