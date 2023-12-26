@@ -1,0 +1,27 @@
+.mainbox{
+    background-color: gainsboro;
+    border: 1px solid black;
+    height: 550px;
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.subbox{
+    border: 1px solid black;
+    height: 220px;
+    margin: 30px;
+}
+
+
+.part1{
+    height: 100px;
+    background-color: gray;
+    width: 300px;
+    line-height: 100px;
+    text-align: center;
+}
+.part2{
+    height: 90px;
+    width: 300px;
+}
