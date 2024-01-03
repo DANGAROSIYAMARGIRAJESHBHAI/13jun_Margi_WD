@@ -5,7 +5,7 @@
 
 .mainbox .menu {
     display: grid;
-    grid-template-columns: 30px 800px 350px 10px;
+    grid-template-columns: 1fr 8fr 3fr 1fr;
     grid-template-rows: 60px;
     color: black;
     padding: 10px;
@@ -47,17 +47,18 @@ table {
     background-color: #81C43B;
     justify-items: center;
     border-radius: 100px;
-    margin-left: 530px;
+    margin-left: 40%;
     color: white;
     font-size: 12px;
-    padding: 3px;
+    padding: 5px;
 }
 
 .mainbox .content .skin {
     background-color: #F2F9EB;
-    padding: 2px;
-    border-radius: 100px;
-    font-size: 12px;
+    padding: 5px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius:100px ;
+    font-size: 16px;
 }
 
 .mainbox .content .head {
@@ -65,13 +66,19 @@ table {
     text-align: center;
     font-family: Inter;
     font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: -5%;
 }
 
 .mainbox .content .pera {
     color: #4E5A65;
     font-size: 12px;
     text-align: center;
+    margin-top: 0%;
+    margin-left: 36%;
+    width: 330px;
 }
+
 
 .mainbox .content .information {
     text-align: center;
@@ -80,7 +87,9 @@ table {
 .mainbox .content .information .input1 {
     color: #97A5B5;
     font-size: 10px;
-    padding: 4px;
+    padding: 4px; 
+    margin-left: -3%;
+
 }
 
 .mainbox .content .input2 {
@@ -92,7 +101,7 @@ table {
 }
 
 .mainbox .img {
-    margin-left: 300px;
+    margin-left: 28%;
     height: 550px;
     width: 600px;
 }
@@ -118,6 +127,7 @@ table {
     display: flex;
     box-sizing: border-box;
     flex-wrap: nowrap;
+    margin-left: 10%;
 }
 
 .mainbox .pic .icon .image {
@@ -204,11 +214,15 @@ table {
 
 .mainbox .flex .display .subdis {
     height: auto;
-    width: 300px;
+    width: 350px;
     padding: 20px;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-
+.subdis img{
+    text-align: left;
+}
 .mainbox .flex p {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -239,6 +253,8 @@ table {
     grid-template-columns: 550px 550px;
     grid-template-rows: auto;
     padding: 80px;
+    text-align: right;
+
 
 
 }
@@ -246,30 +262,32 @@ table {
 .mainbox .grid .grid1 {
     height: auto;
     width: 400px;
-    text-align: center;
-    padding: 25px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 15%;
 }
 
 .mainbox .grid .grid1 .gridp1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     text-align: center;
+
 }
 
 .mainbox .grid .grid1 .gridp {
     font-size: 15px;
     text-align: center;
+
 }
 
 .grid2 {
-    background-color: #E1E5EA;
     height: auto;
     width: auto;
 
 }
 
 .mainbox .grid .grid1 .buttondiv {
-    margin-left: 5px;
+    margin-left: 0px;
     background-color: #796EFF;
     width: 75px;
     font-size: 10px;
@@ -288,25 +306,25 @@ table {
     width: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     justify-items: center;
-    margin-left: 420px;
+    margin-left: 40%;
 }
 
 
 .mainbox .employee .employee2 {
     font-size: 12px;
-    width: 450px;
+    width: 290px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 400px;
-    padding: 20px;
-    line-height: 15px;
+    margin-left: 41%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
 }
 
 .mainbox .employee .employee3 {
     display: grid;
-    grid-template-columns: 50px 250px 50px 250px 50px 250px;
-    padding: 20px;
+    grid-template-columns: 2fr 5fr 2fr 5fr 2fr 5fr ;
+     padding-left: 60px; 
     text-align: left;
-    margin-left: 200px;
 }
 
 .e1 {
@@ -331,7 +349,7 @@ table {
     background-color: #796EFF;
     width: 800px;
     border-radius: 20px;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 5%;
     margin-bottom: 5%;
 
