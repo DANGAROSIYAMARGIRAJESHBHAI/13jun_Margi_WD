@@ -59,8 +59,10 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 32px;
         font-weight: 600;
-        width: 318px;
-        margin-left: 50px;
+        width: 300px;
+        margin-left: 500px; 
+        margin-bottom: 0%;
+        padding-left: 80px;
         margin-bottom: 0%;
 
     }
@@ -70,26 +72,31 @@
         margin: 0;
         padding: 0%;
         font-weight: 400;
-        text-align: center;
+        text-align: justify;
         font-size: 16px;
         color: #4E5A65;
-        width: 318px;
-        height: 52px;
-        line-height: 24px;
-        margin-left: 50px;
+        margin-left: 20%; 
+        border: 1px solid red;
+        width: 270px;
+        margin-top: 0;
+
     }
 
     .mainbox .content .information .input1 {
-        width: 310px;
+        width: 260px;
         height: 30px;
         color: #97A5B5;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        padding: 0%;
     }
 
     .mainbox .content .input2 {
         position: absolute;
-        top: 58%;
-        left: 13%;
-        width: 320px;
+        top: 68%;
+        left: 22%;
+        width: 260px;
         height: 30px;
         font-size: 16px;
         font-weight: 400;
@@ -99,7 +106,7 @@
         margin-left: 0;
         height: auto;
         width: 100%;
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
     .mainbox .img .size {
@@ -111,6 +118,7 @@
 
     .mainbox .pic .icon {
         display: flex;
+        margin-left: 10px;
     }
 
     .mainbox .pic .icon .image {
@@ -168,7 +176,7 @@
 
     }
 
-    .s1 {
+    .S1 {
         display: none;
     }
 
@@ -206,14 +214,14 @@
     .mainbox .grid .grid1 {
         grid-area: 2/1/3/2;
         width: auto;
-        margin-left: -15%;
+        text-align: center;
+        margin-left:-38px;
     }
 
     .mainbox .grid .grid2 {
         grid-area: 1/1/2/2;
         padding: 0;
         margin-left: -15%;
-        width: 344px;
     }
 
     .mainbox .grid .grid1 .buttondiv {
@@ -237,22 +245,24 @@
     .mainbox .employee {
         margin-top: 0;
         width: 100%;
+        text-align: center;
     }
 
     .mainbox .employee .employee1 {
         width: 300px;
         padding: 0;
-        margin-left: 80px;
+        margin-left: 45px;
         margin-right: 80px;
         margin-top: 80px;
+        text-align: center;
     }
 
     .mainbox .employee .employee2 {
         width: 300px;
-        margin: 80px;
         padding: 0;
         margin-top: 0 !important;
         margin-bottom: 0 !important;
+        margin-left: 45px;
         font-size: 18px;
         font-weight: 400;
         line-height: 32px;
@@ -264,7 +274,7 @@
         display: grid;
         grid-template-columns: 120px;
         grid-template-rows: 50px 20px;
-        margin-left: 40%;
+        margin-left: 24%;
         margin-top: 2%;
         margin-bottom: 10%;
 
@@ -334,7 +344,7 @@
 
 
     .mainbox .lastpage .lastpage1 .span1 {
-        display: none;
+         display: none; 
     }
 
     .mainbox .lastpage .lastpage2 {
