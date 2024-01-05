@@ -331,7 +331,7 @@
 
     .mainbox .lastpage {
         display: grid;
-        grid-template-columns: 300px;
+        grid-template-columns: 1fr;
         grid-template-rows: 30px 30px 30px 30px;
         justify-items: left
     }
