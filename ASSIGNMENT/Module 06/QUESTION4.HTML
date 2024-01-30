@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION 04</title>
+    <style>
+        .box {
+            border: solid;
+            text-align: center;
+            margin: 1px;
+        }
+
+        .box1 {
+            border: solid;
+            text-align: center;
+            margin: 1px;
+        }
+
+        .box2 {
+            border: solid;
+            text-align: center;
+            margin: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: cadetblue; padding: 5px;">
+        <hr>
+        <p><b>QUESTION 04</b></p>
+        <p>What do you know about the Bootstrap Grid System?</p>
+        <hr>
+    </div>
+    <div style="background-color: rgb(227, 150, 122); padding: 5px;">
+        <p><b>ANSWER :-</b></p>
+        <p>Bootstrap's grid system allows up to 12 columns across the page.</p>
+        <div style="display: grid; grid-template-columns: repeat(12, 100px);">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3,400px);">
+            <div class="box1">span 4</div>
+            <div class="box1">span 4</div>
+            <div class="box1">span 4</div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2,600px);">
+            <div class="box2">span 6</div>
+            <div class="box2">span 6</div>
+        </div>
+
+        <div style="display: grid;grid-template-columns: 1200px;">
+            <div style="border: solid; text-align: center;">span12</div>
+        </div>
+        <p><b>Grid Classes :</b></p>
+        <p>The Bootstrap grid system has four classes:</p>
+        <div style="margin-left: 25px;">
+            <p>xs (for phones - screens less than 768px wide)</p>
+            <p> sm (for tablets - screens equal to or greater than 768px wide)</p>
+            <p> md (for small laptops - screens equal to or greater than 992px wide)</p>
+            <p>lg (for laptops and desktops - screens equal to or greater than 1200px wide)</p>
+        </div>
+
+        <hr>
+
+
+    </div>
+
+</body>
+
+</html>
