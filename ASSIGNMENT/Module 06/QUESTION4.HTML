@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUESTION 04</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <style>
         .box {
             border: solid;
@@ -23,6 +28,14 @@
             text-align: center;
             margin: 1px;
         }
+
+        .col {
+            border: solid;
+        }
+
+        .row {
+            border: solid;
+        }
     </style>
 </head>
 
@@ -36,39 +49,22 @@
     <div style="background-color: rgb(227, 150, 122); padding: 5px;">
         <p><b>ANSWER :-</b></p>
         <p>Bootstrap's grid system allows up to 12 columns across the page.</p>
-        <div style="display: grid; grid-template-columns: repeat(12, 100px);">
-            <div class="box">1</div>
-            <div class="box">2</div>
-            <div class="box">3</div>
-            <div class="box">4</div>
-            <div class="box">5</div>
-            <div class="box">6</div>
-            <div class="box">7</div>
-            <div class="box">8</div>
-            <div class="box">9</div>
-            <div class="box">10</div>
-            <div class="box">11</div>
-            <div class="box">12</div>
-        </div>
-        <div style="display: grid; grid-template-columns: repeat(3,400px);">
-            <div class="box1">span 4</div>
-            <div class="box1">span 4</div>
-            <div class="box1">span 4</div>
-        </div>
-        <div style="display: grid; grid-template-columns: repeat(2,600px);">
-            <div class="box2">span 6</div>
-            <div class="box2">span 6</div>
-        </div>
-
-        <div style="display: grid;grid-template-columns: 1200px;">
-            <div style="border: solid; text-align: center;">span12</div>
-        </div>
         <p> In the bootstrap Columns are the vertical sections of a grid. </p>
         <p>Rows are the horizontal sections of a grid.</p>
         <p>The Bootstrap grid system has four breakpoints</p>
-            <p>xs ,sm ,md ,lg </p>
+        <p>xs ,sm ,md ,lg </p>
+
+
+
+        <div class="row" style="width: 80%; margin: 20px; text-align: center;">
+            <div style="border: solid;" class="col-12 col-sm-6 col-md-6 col-xs-3">col 1</div>
+            <div style="border: solid;" class="col-12 col-sm-6 col-md-6 col-xs-3">col 2</div>
+        </div>
 
         <hr>
+
+
+
 
 
     </div>
