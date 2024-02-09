@@ -1,0 +1,19 @@
+.mainbox {
+    border: solid;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    justify-self: center;
+    background-color: lightgray;
+    margin-top: 100px;
+  }
+
+  .card {
+    width: auto;
+    box-shadow: 0px 0px 20px gray;
+  }
+
+  .card-title {
+    font-weight: 600;
+    text-align: center;
+  }
