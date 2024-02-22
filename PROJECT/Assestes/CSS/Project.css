@@ -1,0 +1,318 @@
+ .menu1 {
+     background-color: black;
+     color: gray;
+     text-align: center;
+     height: auto;
+     width: 100%;
+     font-size: 13px;
+     /* padding: 5px; */
+ }
+ .menu2 {
+     position: relative;
+     height: 160px;
+     width: 100%;
+     background-color: gray;
+     border: 1px solid white;
+ }
+
+ .menu2 #icon1 {
+     position: absolute;
+     top: 20px;
+     left: 260px;
+     color: white;
+     display: none;
+ }
+
+#submenu{
+    display:none;
+}
+
+ .menu2 img {
+     height: 90px;
+     width: 90px;
+     border-radius: 50%;
+     position: absolute;
+     top: 20%;
+     left: 3%;
+ }
+
+ .menu2 p {
+     position: absolute;
+     color: aliceblue;
+     top: 15%;
+     left: 12%;
+     font-size: 32px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-shadow: 0px 18px 3px;
+ }
+
+ .menu2 p span {
+     color: green;
+ }
+
+ .menu2 input {
+     position: absolute;
+     top: 3%;
+     left: 69%;
+ }
+
+ .menu2 #icon {
+     position: absolute;
+     top: 3%;
+     left:67%;
+     background-color: purple;
+     color: white;
+     padding: 4px;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+ }
+
+ .menu2 input {
+     height: 20px;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+     text-align: center;
+     color: lightgray
+ }
+
+ .menu2 .i1,
+ .i2,
+ .i3,
+ .i4 {
+     color: black;
+     background-color: lightgray;
+     border-radius: 10px;
+     width: 100px;
+     height: auto;
+     padding: 3px;
+     text-align: center;
+ }
+
+ .menu2 .i1 {
+     position: absolute;
+     top: 135px;
+     left: 410px;
+ }
+
+ .menu2 .i2 {
+     position: absolute;
+     top: 135px;
+     left: 520px;
+ }
+
+ .menu2 .i3 {
+     position: absolute;
+     top: 135px;
+     left: 630px;
+ }
+
+ .menu2 .i4 {
+     position: absolute;
+     top: 135px;
+     left: 740px;
+ }
+
+ .content1 {
+     height: 200px;
+     width: auto;
+     background-color: orange;
+     /* position: relative; */
+     margin: 0;
+     padding: 0;
+
+ }
+
+ .content1 .part1 {
+   
+    /* position: absolute; */
+     height: 120px;
+     width: 20%;
+     border-radius: 10px;
+     float: left;
+     padding: 20px;
+     /* top: 10px; */
+     /* left: 2%; */
+     /* margin: 12px; */
+     transform: translate(20%, 9%);
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Rv9-pdbGVKnMjMVPz7z1jcDpgVkxSvIr0g&usqp=CAU');
+ }
+
+ .content1 .title1 {
+     color: green;
+     font-weight: 900;
+     font-size: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+     margin: 0%;
+ }
+
+ /* .content1 i {
+     position: absolute;
+     top: 35px;
+     left: 75px;
+ } */
+
+ .content1 .part2 {
+     /* border: 1px solid black; */
+     height: 200px;
+     width: 70%;
+     /* justify-items: auto; */
+     /* padding-left: 400px; */
+     float: right;
+     margin-left: 0%;
+     margin-top: 30px;
+ }
+ #sumenu li{
+    color: black;
+    background-color: aqua;
+    margin-left: 20px;
+ }
+
+ .content1 .pera1 {
+     color: white;
+     font-size: 12px;
+     text-align: left;
+ }
+
+ .content1 .title2 {
+     text-align: left;
+     color: white;
+     font-size: 22px;
+     font-weight: 900;
+     /* position: absolute; */
+     top: 15px;
+     left: 400px;
+     width: 500px;
+     margin-top: 0px;
+     margin-bottom: 0;
+ }
+
+ .content1 .pera2 {
+     /* position: absolute; */
+     top: 46px;
+     left: 400px;
+     width: 680px;
+     color: white;
+     margin-top: 0px;
+     padding-top: 0;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .mainbox {
+     background-color: lightgray;
+     height: 500px;
+     width: 100%;
+
+ }
+
+ .mainbox .m-1 {
+     /* border: 1px solid black; */
+     padding: 50px;
+     height: 400px;
+     width: 50%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 15px;
+     color: black;
+     float: left;
+ }
+
+ .mainbox .m-1 span {
+     font-size: 25px;
+     font-weight: 700;
+     /* text-decoration: underline; */
+ }
+
+ .mainbox .m-2 {
+     height: 500px;
+     width: 35%;
+     /* border: 1px solid red; */
+     float: right;
+ }
+
+ .mainbox .m-2 .sub1 {
+     font-size: 25px;
+     font-weight: 600;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     /* padding: 10px;  */
+ }
+
+ .mainbox .m-2 .sub2 {
+     height: 450px;
+     width: 100%;
+     background-color: orange;
+     /* padding: 50px; */
+ }
+
+ .mainbox .m-2 .sub2 .img {
+     padding-right: 20px;
+     padding-left: 20px;
+ }
+
+ .mainbox .m-2 .sub2 p {
+     padding: 5px;
+ }
+
+ .mainbox .m-2 .sub2 .img2 {
+     padding-left: 20px;
+     padding-bottom: 25px;
+ }
+
+ .lastpart {
+     height: 130px;
+     width: 100%;
+     background-color: rgb(49, 48, 48);
+     position: relative;
+ }
+
+ .lastpart .firstline {
+     position: absolute;
+     top: 30px;
+     left: 500px;
+     margin: 0%;
+     padding: 0%;
+     color: lightgrey;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .lastpart .secoundline {
+     color: white;
+     position: absolute;
+     top: 45px;
+     left: 340px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .lastpart .thiredline {
+     color: lightgray;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 10px;
+     position: absolute;
+     top: 80px;
+     left: 530px;
+     text-align: center;
+ }
+
+ #media {
+     position: absolute;
+     top: 135px;
+     left: 10px;
+     display: none;
+     /* background-color: white; */
+     /* border: 2px solid black; */
+     /* height: auto; */
+ }
+
+
+
+ .media td {
+     height: 15px;
+     text-align: center;
+     background-color: lightgrey;
+     border-radius: 10px;
+     /* padding-left: 10px; */
+     width: 20%;
+     border: 1px solid black;
+     /* padding-right: 10px; */
+     /* margin: 2px; */
+     /* padding: 20px; */
+ }
